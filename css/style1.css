@@ -30,10 +30,63 @@ html {
 }
 
 img {
-    border-radius: 15px 15px;
+    border-radius: 15px 15px; /*ขอบกลม*/
   }
 
 a {
-    border-radius: 15px 15px;
+    border-radius: 15px 15px; /*ขอบกลม*/
     margin-bottom: 10px;
 }
+
+a:link, a:visited {
+    background-color: #ff837a; /*เปลี่ยนสีเมื่อเอาเมาส์วาง*/
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+a:hover, a:active {
+    background-color:#ff5050;
+  }
+
+.rcorners1 { /*กล่องข้อความทึบ*/
+    text-align: center;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 370px;
+    height: 220px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rcorners2 { /*กล่องข้อความโปร่ง*/
+    border-radius: 25px;
+    border: solid #000000a4;
+    padding : 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }

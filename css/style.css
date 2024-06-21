@@ -31,6 +31,7 @@ html {
 
 img {
     border-radius: 15px 15px; /*ขอบกลม*/
+    max-width: 100%;
   }
 
 a {
@@ -125,6 +126,8 @@ a:hover, a:active {
   }
 .row {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
   
 .column {

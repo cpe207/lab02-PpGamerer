@@ -24,6 +24,7 @@ h3 {
 .center-header {
     text-align: center;
 }
+
 html {
     font-family:"Kanit", sans-serif;
     font-style:normal;
@@ -92,8 +93,8 @@ a:hover, a:active {
   border-radius: 25px;
   background: white;
   padding: 20px;
-  width: 370px;
-  height: 220px;
+  width: 260px;
+  height: 195px;
   margin: auto;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

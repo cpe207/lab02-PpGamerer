@@ -212,7 +212,7 @@ overflow: hidden;
 background-color: blanchedalmond;
 position: fixed; /* Set the navbar to fixed position */
 top: 0; /* Position the navbar at the top of the page */
-width: calc(100% - 16px); /* Full width */
+width: calc(100% - 12px); /* Full width */
 }
 
 .main {

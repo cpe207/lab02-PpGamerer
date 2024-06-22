@@ -234,3 +234,8 @@ a:hover, a:active {
   display: inline-block; /* Ensure it behaves like a block element */
   padding: 0px; /* Padding for better click area */
 }
+
+.subhead {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

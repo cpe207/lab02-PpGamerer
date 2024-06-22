@@ -141,7 +141,7 @@ a:hover, a:active {
   background-color: #ff837a;
   font-family: Kanit;
   display: flex;
-    padding: 0px; /* Adjusted padding: 10px top/bottom, 20px left/right */
+    padding: 0px;
     height: 50px; /* Adjusted height of the navbar */
 }
 
@@ -160,7 +160,6 @@ a:hover, a:active {
   overflow: hidden;
 }
 
-
 /* Dropdown button */
 .dropdown .dropbtn {
   font-size: 16px;
@@ -169,11 +168,9 @@ a:hover, a:active {
   color: white;
   padding: 1px 16px;
   background-color: inherit;
-  font-family: Kanit; /* Important for vertical align on mobile phones */
+  font-family: Kanit; 
   margin: 0; /* Important for vertical align on mobile phones */
 }
-
-
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
@@ -200,7 +197,6 @@ a:hover, a:active {
   text-align: left;
 }
 
-/* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
   background-color: #ff5050;
 }
@@ -210,7 +206,7 @@ a:hover, a:active {
   display: block;
 }
 
-.mainnavbar {
+.mainnavbar { /*fixed menu*/
   overflow: hidden;
   background-color: blanchedalmond;
   position: fixed; /* Set the navbar to fixed position */
@@ -222,17 +218,17 @@ a:hover, a:active {
   margin-top: 150px; /* Add a top margin to avoid content overlay */
 }
 
-.main2 {
+.main2 { /*Home*/
   margin-top: 160px; /* Add a top margin to avoid content overlay */
 }
 
-.enter-link {
-  font-size: 24px; /* Adjust font size */
-  margin-top: 10px; /* Adjust top margin */
+.enter-link { /*index Enter the website*/
+  font-size: 24px; 
+  margin-top: 10px;
   margin-bottom: 0;
   text-decoration: none; /* Remove underline */
   display: inline-block; /* Ensure it behaves like a block element */
-  padding: 0px; /* Padding for better click area */
+  padding: 0px;
 }
 
 .subhead {

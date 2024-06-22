@@ -140,6 +140,9 @@ a:hover, a:active {
   border-radius: 15px 0px;
   background-color: #ff837a;
   font-family: Kanit;
+  display: flex;
+    padding: 0px; /* Adjusted padding: 10px top/bottom, 20px left/right */
+    height: 50px; /* Adjusted height of the navbar */
 }
 
 /* Links inside the navbar */
@@ -217,4 +220,17 @@ a:hover, a:active {
 
 .main {
   margin-top: 150px; /* Add a top margin to avoid content overlay */
+}
+
+.main2 {
+  margin-top: 160px; /* Add a top margin to avoid content overlay */
+}
+
+.enter-link {
+  font-size: 24px; /* Adjust font size */
+  margin-top: 10px; /* Adjust top margin */
+  margin-bottom: 0;
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Ensure it behaves like a block element */
+  padding: 0px; /* Padding for better click area */
 }
